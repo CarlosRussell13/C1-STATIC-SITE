@@ -171,12 +171,12 @@ const IndexPage = () => {
   )
 }
 
-const HomePage = () => {
+const Home = () => {
   return (
     <main>
       <header>
             <nav className="navstyle">
-            <Link className="navstyle" to="newpage">Go to About Page</Link>
+            <Link className="navstyle" to="about">Go to About Page</Link>
             </nav>
             <h1>Glactica Star 9</h1>
         </header>
@@ -185,7 +185,7 @@ const HomePage = () => {
         <p>This is a new page in fictitious starship manufacturing company.</p>
         <div className="card">
           <div className="image-container">
-            <img>src= /workspaces/C1-STATIC-SITE/c1-static-site/src/images/prometheus-shio.jpg alt="STARSHIP"</img> 
+            <img>src= /workspaces/C1-STATIC-SITE/src/images/prometheus-shio.jpg alt="STARSHIP"</img>
           </div>
           <div className="details">
             <div className="name"><b>Name:</b> Galactic Demolition </div>
@@ -199,7 +199,7 @@ const HomePage = () => {
   )
 }
 
-export default HomePage
+export default Home
 
 export const Head = () => <title>Home Page</title>
 
