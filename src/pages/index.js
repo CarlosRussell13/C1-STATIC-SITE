@@ -185,7 +185,7 @@ const Homepage = () => {
         <p>This is a new page in fictitious starship manufacturing company.</p>
         <div className="card">
           <div className="image-container">
-            <img>src= /workspaces/C1-STATIC-SITE/src/images/prometheus-shio.jpg alt="STARSHIP"</img>
+            
           </div>
           <div className="details">
             <div className="name"><b>Name:</b> Galactic Demolition </div>
