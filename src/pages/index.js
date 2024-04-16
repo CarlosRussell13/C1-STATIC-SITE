@@ -171,14 +171,14 @@ const IndexPage = () => {
   )
 }
 
-const Home = () => {
+const Homepage = () => {
   return (
     <main>
       <header>
             <nav className="navstyle">
-            <Link className="navstyle" to="about">Go to About Page</Link>
+            <links className="navstyle" to="about">Go to About Page</links>
             </nav>
-            <h1>Glactica Star 9</h1>
+            <h1>Galactica Star 9</h1>
         </header>
 
         <body>
@@ -199,7 +199,7 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Homepage
 
 export const Head = () => <title>Home Page</title>
 

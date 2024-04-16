@@ -1,6 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import "../styles.css"
+import ".//styles.css"
 
 
 
@@ -22,5 +22,5 @@ const about = () => {
   )
 }
 
-export default NewPage
+export default about
 export const Head = () => <title>About Page</title>
